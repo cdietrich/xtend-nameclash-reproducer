@@ -1,0 +1,1106 @@
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: /Applications/apache-maven-3.6.3
+Java version: 11.0.9, vendor: AdoptOpenJDK, runtime: /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+Default locale: de_DE, platform encoding: UTF-8
+OS name: "mac os x", version: "10.15.7", arch: "x86_64", family: "mac"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: plain
+[DEBUG] Reading global settings from /Applications/apache-maven-3.6.3/conf/settings.xml
+[DEBUG] Reading user settings from /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/src/test/resources/settings.xml
+[DEBUG] Reading global toolchains from /Applications/apache-maven-3.6.3/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/cdietrich/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project org.eclipse.xtend:xtend-prefs:jar:IT-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.eclipse.xtend:it-tests-parent:pom:IT-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.eclipse.xtend:xtend-prefs:jar:IT-SNAPSHOT
+[DEBUG] Tasks:   [org.apache.maven.plugins:maven-clean-plugin:clean, test]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -------------------< org.eclipse.xtend:xtend-prefs >--------------------
+[INFO] Building xtend-prefs IT-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Could not find metadata org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from central: file:///Users/cdietrich/.m2/repository/org/eclipse/xtend/xtend-maven-plugin/IT-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/xtend-maven-plugin/IT-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT/maven-metadata.xml in central (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Could not find metadata org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Skipped remote request for org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT/maven-metadata.xml, already updated during this session.
+[DEBUG] Failure to find org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT/maven-metadata.xml in file:///Users/cdietrich/.m2/repository was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.maven.parent:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from central: file:///Users/cdietrich/.m2/repository/org/eclipse/xtend/org.eclipse.xtend.maven.parent/2.25.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.maven.parent/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.maven.parent:2.25.0-SNAPSHOT/maven-metadata.xml in central (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Could not find metadata org.eclipse.xtext:xtext-dev-bom:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from central: file:///Users/cdietrich/.m2/repository/org/eclipse/xtext/xtext-dev-bom/2.25.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/xtext-dev-bom/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtext:xtext-dev-bom:2.25.0-SNAPSHOT/maven-metadata.xml in central (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.eclipse.xtend:xtend-prefs:IT-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] Repositories (dependencies): [gradle-build-it (file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases), central-real (file:///Users/cdietrich/.m2/repository, default, releases+snapshots)]
+[DEBUG] Repositories (plugins)     : [central (file:///Users/cdietrich/.m2/repository, default, releases+snapshots), central-real (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT:compile (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalPreCompileArgs default-value="-proc:none"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <generateGeneratedAnnotation default-value="false"/>
+  <generateSyntheticSuppressWarnings default-value="true"/>
+  <includeDateInGeneratedAnnotation default-value="false"/>
+  <javaSourceVersion default-value="1.6">${maven.compiler.source}</javaSourceVersion>
+  <outputDirectory default-value="${basedir}/src/main/generated-sources/xtend"/>
+  <project>${project}</project>
+  <propertiesFileLocation default-value="${basedir}/.settings/org.eclipse.xtend.core.Xtend.prefs"/>
+  <session>${session}</session>
+  <skipXtend default-value="false">${skipXtend}</skipXtend>
+  <tempDirectory default-value="${project.build.directory}/xtend"/>
+  <writeTraceFiles default-value="true">${writeTraceFiles}</writeTraceFiles>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT:testCompile (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalPreCompileArgs default-value="-proc:none"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <generateGeneratedAnnotation default-value="false"/>
+  <generateSyntheticSuppressWarnings default-value="true"/>
+  <includeDateInGeneratedAnnotation default-value="false"/>
+  <javaSourceVersion default-value="1.6">${maven.compiler.source}</javaSourceVersion>
+  <project>${project}</project>
+  <propertiesFileLocation default-value="${basedir}/.settings/org.eclipse.xtend.core.Xtend.prefs"/>
+  <session>${session}</session>
+  <skipXtend default-value="false">${skipXtend}</skipXtend>
+  <testOutputDirectory default-value="${basedir}/src/test/generated-sources/xtend"/>
+  <testTempDirectory default-value="${project.build.directory}/xtend-test"/>
+  <writeTraceFiles default-value="true">${writeTraceFiles}</writeTraceFiles>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <runOrder default-value="filesystem"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.lib:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from gradle-build-it: file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from central-real: file:///Users/cdietrich/.m2/repository/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.lib:2.25.0-SNAPSHOT/maven-metadata.xml in gradle-build-it (file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/)
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.lib:2.25.0-SNAPSHOT/maven-metadata.xml in central-real (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.lib:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Skipped remote request for org.eclipse.xtend:org.eclipse.xtend.lib:2.25.0-SNAPSHOT/maven-metadata.xml, already updated during this session.
+[DEBUG] Failure to find org.eclipse.xtend:org.eclipse.xtend.lib:2.25.0-SNAPSHOT/maven-metadata.xml in file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/ was cached in the local repository, resolution will not be reattempted until the update interval of gradle-build-it has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.eclipse.xtend:org.eclipse.xtend.lib:2.25.0-SNAPSHOT/maven-metadata.xml, already updated during this session.
+[DEBUG] Failure to find org.eclipse.xtend:org.eclipse.xtend.lib:2.25.0-SNAPSHOT/maven-metadata.xml in file:///Users/cdietrich/.m2/repository was cached in the local repository, resolution will not be reattempted until the update interval of central-real has elapsed or updates are forced
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/
+[INFO] Downloading from central-real: file:///Users/cdietrich/.m2/repository/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from gradle-build-it: file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.25.0-SNAPSHOT/maven-metadata.xml in gradle-build-it (file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/)
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.25.0-SNAPSHOT/maven-metadata.xml in central-real (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Skipped remote request for org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.25.0-SNAPSHOT/maven-metadata.xml, already updated during this session.
+[DEBUG] Failure to find org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.25.0-SNAPSHOT/maven-metadata.xml in file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/ was cached in the local repository, resolution will not be reattempted until the update interval of gradle-build-it has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.25.0-SNAPSHOT/maven-metadata.xml, already updated during this session.
+[DEBUG] Failure to find org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.25.0-SNAPSHOT/maven-metadata.xml in file:///Users/cdietrich/.m2/repository was cached in the local repository, resolution will not be reattempted until the update interval of central-real has elapsed or updates are forced
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.lib.macro:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/
+[INFO] Downloading from central-real: file:///Users/cdietrich/.m2/repository/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from gradle-build-it: file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.lib.macro:2.25.0-SNAPSHOT/maven-metadata.xml in gradle-build-it (file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/)
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.lib.macro:2.25.0-SNAPSHOT/maven-metadata.xml in central-real (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.lib.macro:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Skipped remote request for org.eclipse.xtend:org.eclipse.xtend.lib.macro:2.25.0-SNAPSHOT/maven-metadata.xml, already updated during this session.
+[DEBUG] Failure to find org.eclipse.xtend:org.eclipse.xtend.lib.macro:2.25.0-SNAPSHOT/maven-metadata.xml in file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/ was cached in the local repository, resolution will not be reattempted until the update interval of gradle-build-it has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.eclipse.xtend:org.eclipse.xtend.lib.macro:2.25.0-SNAPSHOT/maven-metadata.xml, already updated during this session.
+[DEBUG] Failure to find org.eclipse.xtend:org.eclipse.xtend.lib.macro:2.25.0-SNAPSHOT/maven-metadata.xml in file:///Users/cdietrich/.m2/repository was cached in the local repository, resolution will not be reattempted until the update interval of central-real has elapsed or updates are forced
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=408290, ConflictMarker.markTime=180094, ConflictMarker.nodeCount=13, ConflictIdSorter.graphTime=226828, ConflictIdSorter.topsortTime=190849, ConflictIdSorter.conflictIdCount=11, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2417408, ConflictResolver.conflictItemCount=12, DefaultDependencyCollector.collectTime=61273112, DefaultDependencyCollector.transformTime=4665863}
+[DEBUG] org.eclipse.xtend:xtend-prefs:jar:IT-SNAPSHOT
+[DEBUG]    org.eclipse.xtend:org.eclipse.xtend.lib:jar:2.25.0-SNAPSHOT:compile
+[DEBUG]       org.eclipse.xtext:org.eclipse.xtext.xbase.lib:jar:2.25.0-SNAPSHOT:compile
+[DEBUG]          com.google.guava:guava:jar:27.1-jre:compile (version managed from 27.1-jre)
+[DEBUG]             com.google.guava:failureaccess:jar:1.0.1:compile
+[DEBUG]             com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[DEBUG]             com.google.code.findbugs:jsr305:jar:3.0.2:compile (scope managed from compile) (version managed from 3.0.2)
+[DEBUG]             org.checkerframework:checker-qual:jar:2.5.2:compile
+[DEBUG]             com.google.errorprone:error_prone_annotations:jar:2.2.0:compile (scope managed from compile) (version managed from 2.2.0)
+[DEBUG]             com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[DEBUG]             org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
+[DEBUG]       org.eclipse.xtend:org.eclipse.xtend.lib.macro:jar:2.25.0-SNAPSHOT:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-cli) @ xtend-prefs ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=16628, ConflictMarker.markTime=45377, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=9718, ConflictIdSorter.topsortTime=7643, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=70262, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=10447079, DefaultDependencyCollector.transformTime=195465}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes
+[DEBUG]   (f) reportDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/test-classes
+[DEBUG] -- end configuration --
+[DEBUG] Skipping non-existing directory /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target
+[DEBUG] Skipping non-existing directory /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes
+[DEBUG] Skipping non-existing directory /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/test-classes
+[DEBUG] Skipping non-existing directory /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/site
+[INFO] 
+[INFO] --- xtend-maven-plugin:IT-SNAPSHOT:compile (default) @ xtend-prefs ---
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.core:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from central: file:///Users/cdietrich/.m2/repository/org/eclipse/xtend/org.eclipse.xtend.core/2.25.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.core/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.core:2.25.0-SNAPSHOT/maven-metadata.xml in central (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.core:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Skipped remote request for org.eclipse.xtend:org.eclipse.xtend.core:2.25.0-SNAPSHOT/maven-metadata.xml, already updated during this session.
+[DEBUG] Failure to find org.eclipse.xtend:org.eclipse.xtend.core:2.25.0-SNAPSHOT/maven-metadata.xml in file:///Users/cdietrich/.m2/repository was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.xbase:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from central: file:///Users/cdietrich/.m2/repository/org/eclipse/xtext/org.eclipse.xtext.xbase/2.25.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.xbase/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.xbase:2.25.0-SNAPSHOT/maven-metadata.xml in central (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.xbase:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Skipped remote request for org.eclipse.xtext:org.eclipse.xtext.xbase:2.25.0-SNAPSHOT/maven-metadata.xml, already updated during this session.
+[DEBUG] Failure to find org.eclipse.xtext:org.eclipse.xtext.xbase:2.25.0-SNAPSHOT/maven-metadata.xml in file:///Users/cdietrich/.m2/repository was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.common.types:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from central: file:///Users/cdietrich/.m2/repository/org/eclipse/xtext/org.eclipse.xtext.common.types/2.25.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.common.types/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.common.types:2.25.0-SNAPSHOT/maven-metadata.xml in central (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.common.types:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Skipped remote request for org.eclipse.xtext:org.eclipse.xtext.common.types:2.25.0-SNAPSHOT/maven-metadata.xml, already updated during this session.
+[DEBUG] Failure to find org.eclipse.xtext:org.eclipse.xtext.common.types:2.25.0-SNAPSHOT/maven-metadata.xml in file:///Users/cdietrich/.m2/repository was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from central: file:///Users/cdietrich/.m2/repository/org/eclipse/xtext/org.eclipse.xtext/2.25.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext:2.25.0-SNAPSHOT/maven-metadata.xml in central (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Skipped remote request for org.eclipse.xtext:org.eclipse.xtext:2.25.0-SNAPSHOT/maven-metadata.xml, already updated during this session.
+[DEBUG] Failure to find org.eclipse.xtext:org.eclipse.xtext:2.25.0-SNAPSHOT/maven-metadata.xml in file:///Users/cdietrich/.m2/repository was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.util:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from central: file:///Users/cdietrich/.m2/repository/org/eclipse/xtext/org.eclipse.xtext.util/2.25.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.util/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.util:2.25.0-SNAPSHOT/maven-metadata.xml in central (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.util:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Skipped remote request for org.eclipse.xtext:org.eclipse.xtext.util:2.25.0-SNAPSHOT/maven-metadata.xml, already updated during this session.
+[DEBUG] Failure to find org.eclipse.xtext:org.eclipse.xtext.util:2.25.0-SNAPSHOT/maven-metadata.xml in file:///Users/cdietrich/.m2/repository was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.smap:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from central: file:///Users/cdietrich/.m2/repository/org/eclipse/xtext/org.eclipse.xtext.smap/2.25.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.smap/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.smap:2.25.0-SNAPSHOT/maven-metadata.xml in central (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.smap:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Skipped remote request for org.eclipse.xtext:org.eclipse.xtext.smap:2.25.0-SNAPSHOT/maven-metadata.xml, already updated during this session.
+[DEBUG] Failure to find org.eclipse.xtext:org.eclipse.xtext.smap:2.25.0-SNAPSHOT/maven-metadata.xml in file:///Users/cdietrich/.m2/repository was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.debug.core/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from central: file:///Users/cdietrich/.m2/repository/org/eclipse/platform/org.eclipse.debug.core/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/platform/org.eclipse.debug.core/resolver-status.properties
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+[INFO] Downloading from central-real: https://repo.maven.apache.org/maven2/org/eclipse/platform/org.eclipse.debug.core/maven-metadata.xml
+[INFO] Downloaded from central-real: https://repo.maven.apache.org/maven2/org/eclipse/platform/org.eclipse.debug.core/maven-metadata.xml (716 B at 2.8 kB/s)
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/platform/org.eclipse.debug.core/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.debug.core/maven-metadata.xml in central (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.core.variables/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from central-real: https://repo.maven.apache.org/maven2/org/eclipse/platform/org.eclipse.core.variables/maven-metadata.xml
+[INFO] Downloading from central: file:///Users/cdietrich/.m2/repository/org/eclipse/platform/org.eclipse.core.variables/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/platform/org.eclipse.core.variables/resolver-status.properties
+[INFO] Downloaded from central-real: https://repo.maven.apache.org/maven2/org/eclipse/platform/org.eclipse.core.variables/maven-metadata.xml (652 B at 15 kB/s)
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/platform/org.eclipse.core.variables/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.core.variables/maven-metadata.xml in central (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1244095, ConflictMarker.markTime=221934, ConflictMarker.nodeCount=346, ConflictIdSorter.graphTime=492779, ConflictIdSorter.topsortTime=41065, ConflictIdSorter.conflictIdCount=50, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2828994, ConflictResolver.conflictItemCount=126, DefaultDependencyCollector.collectTime=611370362, DefaultDependencyCollector.transformTime=4941298}
+[DEBUG] org.eclipse.xtend:xtend-maven-plugin:jar:IT-SNAPSHOT
+[DEBUG]    com.google.guava:guava:jar:27.1-jre:compile
+[DEBUG]       com.google.guava:failureaccess:jar:1.0.1:compile
+[DEBUG]       com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:3.0.2:compile (scope managed from default) (version managed from default)
+[DEBUG]       org.checkerframework:checker-qual:jar:2.5.2:compile
+[DEBUG]       com.google.errorprone:error_prone_annotations:jar:2.2.0:compile (scope managed from default) (version managed from default)
+[DEBUG]       com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[DEBUG]       org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
+[DEBUG]    org.eclipse.xtend:org.eclipse.xtend.core:jar:2.25.0-SNAPSHOT:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.common:jar:3.13.0:compile (scope managed from default) (version managed from default)
+[DEBUG]       org.eclipse.platform:org.eclipse.core.runtime:jar:3.19.0:compile (scope managed from default) (version managed from default)
+[DEBUG]          org.eclipse.platform:org.eclipse.osgi:jar:3.16.0:compile (scope managed from default) (version managed from default)
+[DEBUG]          org.eclipse.platform:org.eclipse.core.jobs:jar:3.10.800:compile (scope managed from default) (version managed from default)
+[DEBUG]          org.eclipse.platform:org.eclipse.equinox.registry:jar:3.9.0:compile (scope managed from default) (version managed from default)
+[DEBUG]          org.eclipse.platform:org.eclipse.equinox.preferences:jar:3.8.0:compile (scope managed from default) (version managed from default)
+[DEBUG]          org.eclipse.platform:org.eclipse.core.contenttype:jar:3.7.800:compile (scope managed from default) (version managed from default)
+[DEBUG]          org.eclipse.platform:org.eclipse.equinox.app:jar:1.5.0:compile (scope managed from default) (version managed from default)
+[DEBUG]       org.eclipse.jdt:org.eclipse.jdt.core:jar:3.23.0:compile (scope managed from default) (version managed from default)
+[DEBUG]          org.eclipse.platform:org.eclipse.core.filesystem:jar:1.7.700:compile (scope managed from default) (version managed from default)
+[DEBUG]       org.eclipse.jdt:org.eclipse.jdt.compiler.apt:jar:1.3.1100:compile (scope managed from default) (version managed from default)
+[DEBUG]       org.eclipse.jdt:org.eclipse.jdt.compiler.tool:jar:1.2.1000:compile (scope managed from default) (version managed from default)
+[DEBUG]    org.eclipse.xtext:org.eclipse.xtext.xbase:jar:2.25.0-SNAPSHOT:compile
+[DEBUG]       org.eclipse.xtext:org.eclipse.xtext.common.types:jar:2.25.0-SNAPSHOT:compile
+[DEBUG]          io.github.classgraph:classgraph:jar:4.8.35:compile (scope managed from default) (version managed from default)
+[DEBUG]    org.eclipse.xtext:org.eclipse.xtext.xbase.lib:jar:2.25.0-SNAPSHOT:compile
+[DEBUG]    org.eclipse.xtext:org.eclipse.xtext.util:jar:2.25.0-SNAPSHOT:compile
+[DEBUG]    org.eclipse.xtext:org.eclipse.xtext.smap:jar:2.25.0-SNAPSHOT:compile
+[DEBUG]       org.eclipse.xtext:org.eclipse.xtext:jar:2.25.0-SNAPSHOT:compile
+[DEBUG]    org.eclipse.xtend:org.eclipse.xtend.lib:jar:2.25.0-SNAPSHOT:compile
+[DEBUG]       org.eclipse.xtend:org.eclipse.xtend.lib.macro:jar:2.25.0-SNAPSHOT:compile
+[DEBUG]    org.eclipse.emf:org.eclipse.emf.common:jar:2.17.0:compile
+[DEBUG]    org.eclipse.emf:org.eclipse.emf.ecore:jar:2.20.0:compile
+[DEBUG]    com.google.inject:guice:jar:3.0:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]    log4j:log4j:jar:1.2.17:compile
+[DEBUG]    org.ow2.asm:asm-commons:jar:9.0:compile
+[DEBUG]       org.ow2.asm:asm:jar:9.0:compile (scope managed from default) (version managed from default)
+[DEBUG]       org.ow2.asm:asm-tree:jar:9.0:compile (scope managed from default) (version managed from default)
+[DEBUG]       org.ow2.asm:asm-analysis:jar:9.0:compile
+[DEBUG]    org.eclipse.emf:org.eclipse.emf.ecore.xmi:jar:2.16.0:runtime
+[DEBUG]    org.antlr:antlr-runtime:jar:3.2:runtime
+[DEBUG]    org.eclipse.emf:org.eclipse.emf.codegen:jar:2.19.0:runtime
+[DEBUG]       org.eclipse.platform:org.eclipse.core.resources:jar:3.13.800:compile (scope managed from default) (version managed from default)
+[DEBUG]          org.eclipse.platform:org.eclipse.core.expressions:jar:3.7.0:compile (scope managed from default) (version managed from default)
+[DEBUG]       org.eclipse.platform:org.eclipse.debug.core:jar:3.16.0:runtime
+[DEBUG]          org.eclipse.platform:org.eclipse.core.variables:jar:3.4.800:runtime
+[DEBUG]       org.eclipse.platform:org.eclipse.text:jar:3.10.300:compile (scope managed from default) (version managed from default)
+[DEBUG]          org.eclipse.platform:org.eclipse.core.commands:jar:3.9.700:compile (scope managed from default) (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.1:runtime
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from central: file:///Users/cdietrich/.m2/repository/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.25.0-SNAPSHOT/maven-metadata.xml in central (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.lib:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from central: file:///Users/cdietrich/.m2/repository/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.lib:2.25.0-SNAPSHOT/maven-metadata.xml in central (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.lib.macro:2.25.0-SNAPSHOT/maven-metadata.xml in local (/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/cdietrich/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/cdietrich/.m2/repository
+[INFO] Downloading from central: file:///Users/cdietrich/.m2/repository/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Writing tracking file /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/resolver-status.properties
+[DEBUG] Could not find metadata org.eclipse.xtend:org.eclipse.xtend.lib.macro:2.25.0-SNAPSHOT/maven-metadata.xml in central (file:///Users/cdietrich/.m2/repository)
+[DEBUG] Created new class realm plugin>org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT
+[DEBUG] Importing foreign packages into class realm plugin>org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT
+[DEBUG]   Included: org.eclipse.xtend:xtend-maven-plugin:jar:IT-SNAPSHOT
+[DEBUG]   Included: com.google.guava:guava:jar:27.1-jre
+[DEBUG]   Included: com.google.guava:failureaccess:jar:1.0.1
+[DEBUG]   Included: com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:3.0.2
+[DEBUG]   Included: org.checkerframework:checker-qual:jar:2.5.2
+[DEBUG]   Included: com.google.errorprone:error_prone_annotations:jar:2.2.0
+[DEBUG]   Included: com.google.j2objc:j2objc-annotations:jar:1.1
+[DEBUG]   Included: org.codehaus.mojo:animal-sniffer-annotations:jar:1.17
+[DEBUG]   Included: org.eclipse.xtend:org.eclipse.xtend.core:jar:2.25.0-SNAPSHOT
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.equinox.common:jar:3.13.0
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.core.runtime:jar:3.19.0
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.osgi:jar:3.16.0
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.core.jobs:jar:3.10.800
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.equinox.registry:jar:3.9.0
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.equinox.preferences:jar:3.8.0
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.core.contenttype:jar:3.7.800
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.equinox.app:jar:1.5.0
+[DEBUG]   Included: org.eclipse.jdt:org.eclipse.jdt.core:jar:3.23.0
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.core.filesystem:jar:1.7.700
+[DEBUG]   Included: org.eclipse.jdt:org.eclipse.jdt.compiler.apt:jar:1.3.1100
+[DEBUG]   Included: org.eclipse.jdt:org.eclipse.jdt.compiler.tool:jar:1.2.1000
+[DEBUG]   Included: org.eclipse.xtext:org.eclipse.xtext.xbase:jar:2.25.0-SNAPSHOT
+[DEBUG]   Included: org.eclipse.xtext:org.eclipse.xtext.common.types:jar:2.25.0-SNAPSHOT
+[DEBUG]   Included: io.github.classgraph:classgraph:jar:4.8.35
+[DEBUG]   Included: org.eclipse.xtext:org.eclipse.xtext.xbase.lib:jar:2.25.0-SNAPSHOT
+[DEBUG]   Included: org.eclipse.xtext:org.eclipse.xtext.util:jar:2.25.0-SNAPSHOT
+[DEBUG]   Included: org.eclipse.xtext:org.eclipse.xtext.smap:jar:2.25.0-SNAPSHOT
+[DEBUG]   Included: org.eclipse.xtext:org.eclipse.xtext:jar:2.25.0-SNAPSHOT
+[DEBUG]   Included: org.eclipse.xtend:org.eclipse.xtend.lib:jar:2.25.0-SNAPSHOT
+[DEBUG]   Included: org.eclipse.xtend:org.eclipse.xtend.lib.macro:jar:2.25.0-SNAPSHOT
+[DEBUG]   Included: org.eclipse.emf:org.eclipse.emf.common:jar:2.17.0
+[DEBUG]   Included: org.eclipse.emf:org.eclipse.emf.ecore:jar:2.20.0
+[DEBUG]   Included: com.google.inject:guice:jar:3.0
+[DEBUG]   Included: aopalliance:aopalliance:jar:1.0
+[DEBUG]   Included: log4j:log4j:jar:1.2.17
+[DEBUG]   Included: org.ow2.asm:asm-commons:jar:9.0
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.0
+[DEBUG]   Included: org.ow2.asm:asm-tree:jar:9.0
+[DEBUG]   Included: org.ow2.asm:asm-analysis:jar:9.0
+[DEBUG]   Included: org.eclipse.emf:org.eclipse.emf.ecore.xmi:jar:2.16.0
+[DEBUG]   Included: org.antlr:antlr-runtime:jar:3.2
+[DEBUG]   Included: org.eclipse.emf:org.eclipse.emf.codegen:jar:2.19.0
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.core.resources:jar:3.13.800
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.core.expressions:jar:3.7.0
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.debug.core:jar:3.16.0
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.core.variables:jar:3.4.800
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.text:jar:3.10.300
+[DEBUG]   Included: org.eclipse.platform:org.eclipse.core.commands:jar:3.9.700
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.1
+[DEBUG] Configuring mojo org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT:compile from plugin realm ClassRealm[plugin>org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc]
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$2 (file:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/inject/guice/3.0/guice-3.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[DEBUG] Configuring mojo 'org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT:compile' with basic configurator -->
+[DEBUG]   (f) additionalPreCompileArgs = -proc:none
+[DEBUG]   (f) generateGeneratedAnnotation = false
+[DEBUG]   (f) generateSyntheticSuppressWarnings = true
+[DEBUG]   (f) includeDateInGeneratedAnnotation = false
+[DEBUG]   (f) javaSourceVersion = 1.8
+[DEBUG]   (f) outputDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/generated-sources/xtend
+[DEBUG]   (f) project = MavenProject: org.eclipse.xtend:xtend-prefs:IT-SNAPSHOT @ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/pom.xml
+[DEBUG]   (f) propertiesFileLocation = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/.settings/org.eclipse.xtend.core.Xtend.prefs
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5cbe95b1
+[DEBUG]   (f) skipXtend = false
+[DEBUG]   (f) tempDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/xtend
+[DEBUG]   (f) writeTraceFiles = true
+[DEBUG] -- end configuration --
+[DEBUG] Output directory '/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/generated-sources/xtend'
+[DEBUG] Default directory '/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/generated-sources/xtend'
+[DEBUG] Source dir : /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/java exists true
+[DEBUG] Applying Xtend property: generated-sources/xtend-from-pref
+[INFO] Using Xtend output directory '/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/generated-sources/xtend-from-pref'
+[DEBUG] Set Java Compliance Level: 1.8
+[DEBUG] Set generateSyntheticSuppressWarnings: true
+[DEBUG] Set generateGeneratedAnnotation: false
+[DEBUG] Set includeDateInGeneratedAnnotation: false
+[DEBUG] Set generatedAnnotationComment: null
+[DEBUG] Set baseDir: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs
+[DEBUG] Set temp directory: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/xtend
+[DEBUG] Set DeleteTempDirectory: false
+[DEBUG] Set classpath: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/java:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/org.eclipse.xtend.lib-2.25.0-SNAPSHOT.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/org.eclipse.xtext.xbase.lib-2.25.0-SNAPSHOT.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/org.eclipse.xtend.lib.macro-2.25.0-SNAPSHOT.jar
+[DEBUG] Set bootClasspath: 
+[DEBUG] Set source path: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/java
+[DEBUG] Set output path: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/generated-sources/xtend-from-pref
+[DEBUG] Set encoding: null
+[DEBUG] Set writeTraceFiles: true
+[DEBUG] Set additional precompile args: -proc:none
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ xtend-prefs ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=179630, ConflictMarker.markTime=45754, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=96362, ConflictIdSorter.topsortTime=21864, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=650248, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=54557940, DefaultDependencyCollector.transformTime=1021928}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.eclipse.xtend:xtend-prefs:IT-SNAPSHOT @ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5cbe95b1
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.TERM=xterm-256color, java.specification.version=11, sun.cpu.isalist=, sun.arch.data.model=64, env.rvm_quiet_flag=, env.GEM_HOME=/Users/cdietrich/.rvm/gems/ruby-2.6.3, java.vendor.url=https://adoptopenjdk.net/, env.COLORFGBG=7;0, sun.boot.library.path=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -DnonTestMavenRepo=/Users/cdietrich/.m2/repository -DgradleMavenRepo=file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/ -DWORKSPACE=/Users/cdietrich/xtext-master/git/xtext-xtend -s /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/src/test/resources/settings.xml -U -e --batch-mode --debug -Dmaven.repo.local=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test org.apache.maven.plugins:maven-clean-plugin:clean test, jdk.debug=release, env.rvm_ruby_make=, maven.version=3.6.3, env.JAVA_MAIN_CLASS_70818=org.codehaus.plexus.classworlds.launcher.Launcher, java.specification.vendor=Oracle Corporation, java.version.date=2020-10-20, java.home=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, env.NVM_BIN=/Users/cdietrich/.nvm/versions/node/v12.16.0/bin, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.LC_TERMINAL_VERSION=3.4.2, java.runtime.version=11.0.9+11, env.rvm_version=1.29.9 (latest), env.PATH=/Users/cdietrich/.nvm/versions/node/v12.16.0/bin:/Users/cdietrich/.rvm/gems/ruby-2.6.3/bin:/Users/cdietrich/.rvm/gems/ruby-2.6.3@global/bin:/Users/cdietrich/.rvm/rubies/ruby-2.6.3/bin:/Applications/apache-maven-3.6.3/bin:/Applications/Sublime Text.app/Contents/SharedSupport/bin/:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/Users/cdietrich/.rvm/bin, env.rvm_bin_flag=, file.encoding=UTF-8, WORKSPACE=/Users/cdietrich/xtext-master/git/xtext-xtend, java.vendor.version=AdoptOpenJDK, env.SHLVL=4, java.io.tmpdir=/var/folders/b3/_gnh3f057j7914t3wtd2n4r00000gp/T/, java.version=11.0.9, env.WORKSPACE=/Users/cdietrich/xtext-master/git/xtext-xtend, env.rvm_ruby_mode=, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, java.library.path=/Users/cdietrich/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor=AdoptOpenJDK, classworlds.conf=/Applications/apache-maven-3.6.3/bin/m2.conf, sun.io.unicode.encoding=UnicodeBig, env.rvm_sdk=, env.LANG=de_DE.UTF-8, env.rvm_path=/Users/cdietrich/.rvm, env.rvm_silent_flag=, nonTestMavenRepo=/Users/cdietrich/.m2/repository, user.timezone=, os.name=Mac OS X, java.vm.specification.version=11, xtextBOMVersion=2.24.0, env.rvm_ruby_file=, env.rvm_alias_expanded=, env.MY_RUBY_HOME=/Users/cdietrich/.rvm/rubies/ruby-2.6.3, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, maven.compiler.source=1.8, user.home=/Users/cdietrich, env.COLORTERM=truecolor, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, env.ITERM_SESSION_ID=w0t2p0:5A8B9650-0B1E-44C2-8A6E-E61652EE1CB8, env.ITERM_PROFILE=Default, env.rvm_niceness=, env.rvm_ruby_make_install=, env.rvm_docs_type=, env.rvm_script_name=, path.separator=:, env.RUBY_VERSION=ruby-2.6.3, os.version=10.15.7, env.GEM_PATH=/Users/cdietrich/.rvm/gems/ruby-2.6.3:/Users/cdietrich/.rvm/gems/ruby-2.6.3@global, env.rvm_only_path_flag=, java.vm.name=OpenJDK 64-Bit Server VM, env.SHELL=/bin/zsh, env.M2_HOME=/Applications/apache-maven-3.6.3, os.arch=x86_64, maven.multiModuleProjectDirectory=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs, env.MAVEN_PROJECTBASEDIR=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs, java.vm.info=mixed mode, env.rvm_nightly_flag=, env.USER=cdietrich, java.class.version=55.0, env.rvm_proxy=, env.rvm_ruby_bits=, awt.toolkit=sun.lwawt.macosx.LWCToolkit, env.rvm_bin_path=/Users/cdietrich/.rvm/bin, sun.jnu.encoding=UTF-8, gradleMavenRepo=file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/, env.rvm_pretty_print_flag=, maven.build.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), env.rvm_gemstone_url=, maven.home=/Applications/apache-maven-3.6.3, env.JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home, env.LC_TERMINAL=iTerm2, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, env.TERM_PROGRAM_VERSION=3.4.2, user.name=cdietrich, env.MAVEN_TERMINATE_CMD=on, env.LOGNAME=cdietrich, env.XPC_FLAGS=0x0, env.__CF_USER_TEXT_ENCODING=0x1F6:0x0:0x3, xtextVersion=2.25.0-SNAPSHOT, env.TERM_SESSION_ID=w0t2p0:5A8B9650-0B1E-44C2-8A6E-E61652EE1CB8, env.IRBRC=/Users/cdietrich/.rvm/rubies/ruby-2.6.3/.irbrc, env.rvm_prefix=/Users/cdietrich, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.jcCTpPAbwt/Listeners, sun.os.patch.level=unknown, maven.compiler.target=1.8, env.TMPDIR=/var/folders/b3/_gnh3f057j7914t3wtd2n4r00000gp/T/, library.jansi.path=/Applications/apache-maven-3.6.3/lib/jansi-native, maven.repo.local=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test, env.TERM_PROGRAM=iTerm.app, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, env.OLDPWD=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs, gopherProxySet=false, env.PWD=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs, env.rvm_hook=, java.class.path=/Applications/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar, env.HOME=/Users/cdietrich, java.vm.vendor=AdoptOpenJDK, maven.conf=/Applications/apache-maven-3.6.3/conf, sun.java.launcher=SUN_STANDARD, user.country=DE, sun.cpu.endian=little, user.language=de, env.NVM_DIR=/Users/cdietrich/.nvm, env.JAVA_MAIN_CLASS_70851=org.apache.maven.surefire.booter.ForkedBooter, env.rvm_use_flag=, env.XPC_SERVICE_NAME=0, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, env.rvm_gemstone_package_file=, env.JAVA_MAIN_CLASS_71470=org.codehaus.plexus.classworlds.launcher.Launcher, java.runtime.name=OpenJDK Runtime Environment, env.SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS=/Users/cdietrich/Library/WebKit/Databases, env.NVM_CD_FLAGS=-q, env.MAVEN_CMD_LINE_ARGS= -DnonTestMavenRepo=/Users/cdietrich/.m2/repository -DgradleMavenRepo=file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/ -DWORKSPACE=/Users/cdietrich/xtext-master/git/xtext-xtend -s /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/src/test/resources/settings.xml -U -e --batch-mode --debug -Dmaven.repo.local=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test org.apache.maven.plugins:maven-clean-plugin:clean test, java.vendor.url.bug=https://github.com/AdoptOpenJDK/openjdk-support/issues, user.dir=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs, java.vm.version=11.0.9+11}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ xtend-prefs ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=190186, ConflictMarker.markTime=71177, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=51068, ConflictIdSorter.topsortTime=36695, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1198660, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=95653141, DefaultDependencyCollector.transformTime=1570447}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs
+[DEBUG]   (f) buildDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target
+[DEBUG]   (f) classpathElements = [/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/org.eclipse.xtend.lib-2.25.0-SNAPSHOT.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/org.eclipse.xtext.xbase.lib-2.25.0-SNAPSHOT.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/org.eclipse.xtend.lib.macro-2.25.0-SNAPSHOT.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/java, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/generated-sources/xtend-from-pref]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes
+[DEBUG]   (f) projectArtifact = org.eclipse.xtend:xtend-prefs:jar:IT-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@5cbe95b1
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5cbe95b1
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/java
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/generated-sources/xtend-from-pref]
+[DEBUG] Classpath: [/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/org.eclipse.xtend.lib-2.25.0-SNAPSHOT.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/org.eclipse.xtext.xbase.lib-2.25.0-SNAPSHOT.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/org.eclipse.xtend.lib.macro-2.25.0-SNAPSHOT.jar]
+[DEBUG] Output directory: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/generated-sources/xtend-from-pref/test/XtendA.java
+[DEBUG] Stale source detected: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/java/test/JavaB.java
+[DEBUG] Stale source detected: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/generated-sources/xtend-from-pref/test/XtendC.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/org.eclipse.xtend.lib-2.25.0-SNAPSHOT.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/org.eclipse.xtext.xbase.lib-2.25.0-SNAPSHOT.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/org.eclipse.xtend.lib.macro-2.25.0-SNAPSHOT.jar
+[DEBUG] Source roots:
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/java
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/generated-sources/xtend-from-pref
+[DEBUG] Command line options:
+[DEBUG] -d /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes -classpath /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/org.eclipse.xtend.lib-2.25.0-SNAPSHOT.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/org.eclipse.xtext.xbase.lib-2.25.0-SNAPSHOT.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/org.eclipse.xtend.lib.macro-2.25.0-SNAPSHOT.jar: -sourcepath /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/java:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/main/generated-sources/xtend-from-pref: -s /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/generated-sources/annotations -g -nowarn -target 1.8 -source 1.8
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 3 source files to /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- xtend-maven-plugin:IT-SNAPSHOT:testCompile (default) @ xtend-prefs ---
+[DEBUG] Configuring mojo org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT:testCompile from plugin realm ClassRealm[plugin>org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc]
+[DEBUG] Configuring mojo 'org.eclipse.xtend:xtend-maven-plugin:IT-SNAPSHOT:testCompile' with basic configurator -->
+[DEBUG]   (f) additionalPreCompileArgs = -proc:none
+[DEBUG]   (f) generateGeneratedAnnotation = false
+[DEBUG]   (f) generateSyntheticSuppressWarnings = true
+[DEBUG]   (f) includeDateInGeneratedAnnotation = false
+[DEBUG]   (f) javaSourceVersion = 1.8
+[DEBUG]   (f) project = MavenProject: org.eclipse.xtend:xtend-prefs:IT-SNAPSHOT @ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/pom.xml
+[DEBUG]   (f) propertiesFileLocation = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/.settings/org.eclipse.xtend.core.Xtend.prefs
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5cbe95b1
+[DEBUG]   (f) skipXtend = false
+[DEBUG]   (f) testOutputDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend
+[DEBUG]   (f) testTempDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/xtend-test
+[DEBUG]   (f) writeTraceFiles = true
+[DEBUG] -- end configuration --
+[DEBUG] Output directory '/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend'
+[DEBUG] Default directory '/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend'
+[DEBUG] Source dir : /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/java exists true
+[DEBUG] Applying Xtend property: generated-sources/xtend-from-pref
+[INFO] Using Xtend output directory '/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend-from-pref'
+[DEBUG] Set Java Compliance Level: 1.8
+[DEBUG] Set generateSyntheticSuppressWarnings: true
+[DEBUG] Set generateGeneratedAnnotation: false
+[DEBUG] Set includeDateInGeneratedAnnotation: false
+[DEBUG] Set generatedAnnotationComment: null
+[DEBUG] Set baseDir: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs
+[DEBUG] Set temp directory: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/xtend-test
+[DEBUG] Set DeleteTempDirectory: false
+[DEBUG] Set classpath: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/java:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/org.eclipse.xtend.lib-2.25.0-SNAPSHOT.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/org.eclipse.xtext.xbase.lib-2.25.0-SNAPSHOT.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/org.eclipse.xtend.lib.macro-2.25.0-SNAPSHOT.jar
+[DEBUG] Set bootClasspath: 
+[DEBUG] Set source path: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/java
+[DEBUG] Set output path: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend-from-pref
+[DEBUG] Set encoding: null
+[DEBUG] Set writeTraceFiles: true
+[DEBUG] Set additional precompile args: -proc:none
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ xtend-prefs ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.eclipse.xtend:xtend-prefs:IT-SNAPSHOT @ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5cbe95b1
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.TERM=xterm-256color, java.specification.version=11, sun.cpu.isalist=, sun.arch.data.model=64, env.rvm_quiet_flag=, env.GEM_HOME=/Users/cdietrich/.rvm/gems/ruby-2.6.3, java.vendor.url=https://adoptopenjdk.net/, env.COLORFGBG=7;0, sun.boot.library.path=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -DnonTestMavenRepo=/Users/cdietrich/.m2/repository -DgradleMavenRepo=file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/ -DWORKSPACE=/Users/cdietrich/xtext-master/git/xtext-xtend -s /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/src/test/resources/settings.xml -U -e --batch-mode --debug -Dmaven.repo.local=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test org.apache.maven.plugins:maven-clean-plugin:clean test, jdk.debug=release, env.rvm_ruby_make=, maven.version=3.6.3, env.JAVA_MAIN_CLASS_70818=org.codehaus.plexus.classworlds.launcher.Launcher, java.specification.vendor=Oracle Corporation, java.version.date=2020-10-20, java.home=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, env.NVM_BIN=/Users/cdietrich/.nvm/versions/node/v12.16.0/bin, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.LC_TERMINAL_VERSION=3.4.2, java.runtime.version=11.0.9+11, env.rvm_version=1.29.9 (latest), env.PATH=/Users/cdietrich/.nvm/versions/node/v12.16.0/bin:/Users/cdietrich/.rvm/gems/ruby-2.6.3/bin:/Users/cdietrich/.rvm/gems/ruby-2.6.3@global/bin:/Users/cdietrich/.rvm/rubies/ruby-2.6.3/bin:/Applications/apache-maven-3.6.3/bin:/Applications/Sublime Text.app/Contents/SharedSupport/bin/:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/Users/cdietrich/.rvm/bin, env.rvm_bin_flag=, file.encoding=UTF-8, WORKSPACE=/Users/cdietrich/xtext-master/git/xtext-xtend, java.vendor.version=AdoptOpenJDK, env.SHLVL=4, java.io.tmpdir=/var/folders/b3/_gnh3f057j7914t3wtd2n4r00000gp/T/, java.version=11.0.9, env.WORKSPACE=/Users/cdietrich/xtext-master/git/xtext-xtend, env.rvm_ruby_mode=, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, java.library.path=/Users/cdietrich/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor=AdoptOpenJDK, classworlds.conf=/Applications/apache-maven-3.6.3/bin/m2.conf, sun.io.unicode.encoding=UnicodeBig, env.rvm_sdk=, env.LANG=de_DE.UTF-8, env.rvm_path=/Users/cdietrich/.rvm, env.rvm_silent_flag=, nonTestMavenRepo=/Users/cdietrich/.m2/repository, user.timezone=, os.name=Mac OS X, java.vm.specification.version=11, xtextBOMVersion=2.24.0, env.rvm_ruby_file=, env.rvm_alias_expanded=, env.MY_RUBY_HOME=/Users/cdietrich/.rvm/rubies/ruby-2.6.3, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, maven.compiler.source=1.8, user.home=/Users/cdietrich, env.COLORTERM=truecolor, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, env.ITERM_SESSION_ID=w0t2p0:5A8B9650-0B1E-44C2-8A6E-E61652EE1CB8, env.ITERM_PROFILE=Default, env.rvm_niceness=, env.rvm_ruby_make_install=, env.rvm_docs_type=, env.rvm_script_name=, path.separator=:, env.RUBY_VERSION=ruby-2.6.3, os.version=10.15.7, env.GEM_PATH=/Users/cdietrich/.rvm/gems/ruby-2.6.3:/Users/cdietrich/.rvm/gems/ruby-2.6.3@global, env.rvm_only_path_flag=, java.vm.name=OpenJDK 64-Bit Server VM, env.SHELL=/bin/zsh, env.M2_HOME=/Applications/apache-maven-3.6.3, os.arch=x86_64, maven.multiModuleProjectDirectory=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs, env.MAVEN_PROJECTBASEDIR=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs, java.vm.info=mixed mode, env.rvm_nightly_flag=, env.USER=cdietrich, java.class.version=55.0, env.rvm_proxy=, env.rvm_ruby_bits=, awt.toolkit=sun.lwawt.macosx.LWCToolkit, env.rvm_bin_path=/Users/cdietrich/.rvm/bin, sun.jnu.encoding=UTF-8, gradleMavenRepo=file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/, env.rvm_pretty_print_flag=, maven.build.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), env.rvm_gemstone_url=, maven.home=/Applications/apache-maven-3.6.3, env.JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home, env.LC_TERMINAL=iTerm2, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, env.TERM_PROGRAM_VERSION=3.4.2, user.name=cdietrich, env.MAVEN_TERMINATE_CMD=on, env.LOGNAME=cdietrich, env.XPC_FLAGS=0x0, env.__CF_USER_TEXT_ENCODING=0x1F6:0x0:0x3, xtextVersion=2.25.0-SNAPSHOT, env.TERM_SESSION_ID=w0t2p0:5A8B9650-0B1E-44C2-8A6E-E61652EE1CB8, env.IRBRC=/Users/cdietrich/.rvm/rubies/ruby-2.6.3/.irbrc, env.rvm_prefix=/Users/cdietrich, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.jcCTpPAbwt/Listeners, sun.os.patch.level=unknown, maven.compiler.target=1.8, env.TMPDIR=/var/folders/b3/_gnh3f057j7914t3wtd2n4r00000gp/T/, library.jansi.path=/Applications/apache-maven-3.6.3/lib/jansi-native, maven.repo.local=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test, env.TERM_PROGRAM=iTerm.app, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, env.OLDPWD=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs, gopherProxySet=false, env.PWD=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs, env.rvm_hook=, java.class.path=/Applications/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar, env.HOME=/Users/cdietrich, java.vm.vendor=AdoptOpenJDK, maven.conf=/Applications/apache-maven-3.6.3/conf, sun.java.launcher=SUN_STANDARD, user.country=DE, sun.cpu.endian=little, user.language=de, env.NVM_DIR=/Users/cdietrich/.nvm, env.JAVA_MAIN_CLASS_70851=org.apache.maven.surefire.booter.ForkedBooter, env.rvm_use_flag=, env.XPC_SERVICE_NAME=0, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, env.rvm_gemstone_package_file=, env.JAVA_MAIN_CLASS_71470=org.codehaus.plexus.classworlds.launcher.Launcher, java.runtime.name=OpenJDK Runtime Environment, env.SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS=/Users/cdietrich/Library/WebKit/Databases, env.NVM_CD_FLAGS=-q, env.MAVEN_CMD_LINE_ARGS= -DnonTestMavenRepo=/Users/cdietrich/.m2/repository -DgradleMavenRepo=file:/Users/cdietrich/xtext-master/git/xtext-xtend/build/maven-repository/ -DWORKSPACE=/Users/cdietrich/xtext-master/git/xtext-xtend -s /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/src/test/resources/settings.xml -U -e --batch-mode --debug -Dmaven.repo.local=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test org.apache.maven.plugins:maven-clean-plugin:clean test, java.vendor.url.bug=https://github.com/AdoptOpenJDK/openjdk-support/issues, user.dir=/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs, java.vm.version=11.0.9+11}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ xtend-prefs ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs
+[DEBUG]   (f) buildDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target
+[DEBUG]   (f) classpathElements = [/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/test-classes, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/org.eclipse.xtend.lib-2.25.0-SNAPSHOT.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/org.eclipse.xtext.xbase.lib-2.25.0-SNAPSHOT.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/org.eclipse.xtend.lib.macro-2.25.0-SNAPSHOT.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/java, /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend-from-pref]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/generated-test-sources/test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/test-classes
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@5cbe95b1
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5cbe95b1
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/java
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend-from-pref]
+[DEBUG] Classpath: [/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/test-classes
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/org.eclipse.xtend.lib-2.25.0-SNAPSHOT.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/org.eclipse.xtext.xbase.lib-2.25.0-SNAPSHOT.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar
+ /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/org.eclipse.xtend.lib.macro-2.25.0-SNAPSHOT.jar]
+[DEBUG] Output directory: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/test-classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/java/tests/JavaB.java
+[DEBUG] Stale source detected: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend-from-pref/tests/XtendC.java
+[DEBUG] Stale source detected: /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend-from-pref/tests/XtendA.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/test-classes
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/org.eclipse.xtend.lib-2.25.0-SNAPSHOT.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/org.eclipse.xtext.xbase.lib-2.25.0-SNAPSHOT.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/org.eclipse.xtend.lib.macro-2.25.0-SNAPSHOT.jar
+[DEBUG] Source roots:
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/java
+[DEBUG]  /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend-from-pref
+[DEBUG] Command line options:
+[DEBUG] -d /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/test-classes -classpath /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/test-classes:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/classes:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib/2.25.0-SNAPSHOT/org.eclipse.xtend.lib-2.25.0-SNAPSHOT.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.25.0-SNAPSHOT/org.eclipse.xtext.xbase.lib-2.25.0-SNAPSHOT.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/.m2test/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.25.0-SNAPSHOT/org.eclipse.xtend.lib.macro-2.25.0-SNAPSHOT.jar: -sourcepath /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/java:/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend-from-pref: -s /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/generated-test-sources/test-annotations -g -nowarn -target 1.8 -source 1.8
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 3 source files to /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/target/test-classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend-from-pref/tests/XtendA.java:[8,21] incompatible types: tests.XtendC cannot be converted to test.XtendC
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.298 s
+[INFO] Finished at: 2020-12-10T09:44:26+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project xtend-prefs: Compilation failure
+[ERROR] /Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend-from-pref/tests/XtendA.java:[8,21] incompatible types: tests.XtendC cannot be converted to test.XtendC
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project xtend-prefs: Compilation failure
+/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend-from-pref/tests/XtendA.java:[8,21] incompatible types: tests.XtendC cannot be converted to test.XtendC
+
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.apache.maven.plugin.compiler.CompilationFailureException: Compilation failure
+/Users/cdietrich/xtext-master/git/xtext-xtend/org.eclipse.xtend.maven.plugin/target/test-classes/it/compile/xtend-prefs/src/test/generated-sources/xtend-from-pref/tests/XtendA.java:[8,21] incompatible types: tests.XtendC cannot be converted to test.XtendC
+
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:858)
+    at org.apache.maven.plugin.compiler.TestCompilerMojo.execute (TestCompilerMojo.java:152)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
